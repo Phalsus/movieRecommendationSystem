@@ -36,6 +36,7 @@ def recommendMovies():
             repeat = input("do you want to continue? (Y/N)")
             if repeat.lower() == "n":
                 raise breakOut
+            recommendMovies()
         
 
         else:
